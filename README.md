@@ -96,6 +96,10 @@ apt-get update
 apt-get -y install cudnn
 
 #apt-get install libcudnn8 && apt-get install libcudnn8-dev
+
+custom model:
+KoljaB/XTTS_Lasinya
+
 ```
 
 ## Install
