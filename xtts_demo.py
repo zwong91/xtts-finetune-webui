@@ -178,7 +178,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--share",
         action="store_true",
-        default=False,
+        default=True,
         help="Enable sharing of the Gradio interface via public link.",
     )
     parser.add_argument(
@@ -761,5 +761,5 @@ if __name__ == "__main__":
         debug=False,
         server_port=args.port,
         # inweb=True,
-        # server_name="localhost"
+        server_name="0.0.0.0"
     )
