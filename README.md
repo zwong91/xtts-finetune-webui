@@ -80,15 +80,15 @@ JacobLinCool/jacob-common-voice-19-zh-TW-curated
 # On macOS and Linux.
 curl -LsSf https://astral.sh/uv/install.sh | sh
 source $HOME/.local/bin/env 
-uv venv --python=python3.10 xtts-ft
-source xtts-ft/bin/activate
+uv venv --python=python3.10 venv
+source venv/bin/activate
 
 ## Install
 
 1. Make sure you have `Cuda` installed
 2. `git clone https://github.com/daswer123/xtts-finetune-webui`
 3. `cd xtts-finetune-webui`
-4. `uv pip install torch==2.3.1+cu118 torchaudio==2.3.1+cu118 --index-url https://download.pytorch.org/whl/cu118`
+4. `uv pip install torch==2.1.2+cu118 torchaudio==2.1.2+cu118 --index-url https://download.pytorch.org/whl/cu118`
 5. `uv pip install -r requirements.txt`
 
 ### If you're using Windows
@@ -104,7 +104,7 @@ source xtts-ft/bin/activate
 3. Go to the local address `127.0.0.1:5003`
 
 ### On Apple Silicon Mac (python 3.10 env)
-0. ``` uv venv --python=python3.10 xtts-ft ```
+0. ``` uv venv --python=python3.10 venv ```
 1. ``` pip install --no-deps -r apple_silicon_requirements.txt ```
 2. To start the server `python xtts_demo.py`
 3. Go to the local address `127.0.0.1:5003`
