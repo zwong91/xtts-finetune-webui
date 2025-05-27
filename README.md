@@ -67,6 +67,17 @@ python headlessXttsTrain.py --input_audio speaker.wav --lang en --epochs 10 # Ex
 python headlessXttsTrain.py --help # See parameters
 ```
 
+
+***上传两个或更多文件，需要从音频创建数据集。每个音频应少于 2 分钟。为了获得高质量的生成，建议将音频长度设置为 15 秒 - 这样一切都会正常工作***
+
+```json
+dataset cn examples  or 用Orpheus fast合成语音数据集:
+
+ivanzhu109/zh-taiwan
+JacobLinCool/jacob-common-voice-19-zh-TW-curated
+```
+
+
 ## Install
 
 1. Make sure you have `Cuda` installed

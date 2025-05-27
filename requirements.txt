@@ -13,3 +13,9 @@ torchaudio==2.1.2
 
 
 
+datasets
+pandas
+pyarrow
+librosa
+soundfile 
+tqdm
