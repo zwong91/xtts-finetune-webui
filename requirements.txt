@@ -1,7 +1,7 @@
 faster_whisper==1.0.3
 gradio==4.44.1
 spacy==3.7.5
-coqui-tts[languages] == 0.24.2
+coqui-tts[languages] == 0.26.2
 cutlet==0.5.0
 fugashi[unidic-lite]==1.4.0
 fastapi==0.103.1
