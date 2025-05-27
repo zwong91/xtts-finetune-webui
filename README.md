@@ -77,14 +77,19 @@ ivanzhu109/zh-taiwan
 JacobLinCool/jacob-common-voice-19-zh-TW-curated
 ```
 
+# On macOS and Linux.
+curl -LsSf https://astral.sh/uv/install.sh | sh
+source $HOME/.local/bin/env 
+uv venv --python=python3.10 xtts-ft
+source xtts-ft/bin/activate
 
 ## Install
 
 1. Make sure you have `Cuda` installed
 2. `git clone https://github.com/daswer123/xtts-finetune-webui`
 3. `cd xtts-finetune-webui`
-4. `pip install torch==2.1.1+cu118 torchaudio==2.1.1+cu118 --index-url https://download.pytorch.org/whl/cu118`
-5. `pip install -r requirements.txt`
+4. `uv pip install torch==2.3.0+cu118 torchaudio==2.3.0+cu118 --index-url https://download.pytorch.org/whl/cu118`
+5. `uv pip install -r requirements.txt`
 
 ### If you're using Windows
 
