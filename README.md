@@ -87,14 +87,15 @@ source venv/bin/activate
 ## 安装 cuBLAS 和 cuDNN
 
 ```bash
-apt install -y cuda-toolkit-12-4
+#apt install -y cuda-toolkit-12-4
+
 # https://developer.nvidia.com/cudnn-downloads
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb
 dpkg -i cuda-keyring_1.1-1_all.deb
 apt-get update
 apt-get -y install cudnn
 
-apt-get install libcudnn8 && apt-get install libcudnn8-dev
+#apt-get install libcudnn8 && apt-get install libcudnn8-dev
 ```
 
 ## Install
