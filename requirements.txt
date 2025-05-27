@@ -6,9 +6,9 @@ cutlet==0.5.0
 fugashi[unidic-lite]==1.4.0
 fastapi==0.103.1
 pydantic==2.3.0
-torch==2.3.0
-torchvision==0.18.0
-torchaudio==2.3.0
+torch==2.3.1
+torchvision==0.18.1
+torchaudio==2.3.1
 
 
 datasets

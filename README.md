@@ -88,7 +88,7 @@ source xtts-ft/bin/activate
 1. Make sure you have `Cuda` installed
 2. `git clone https://github.com/daswer123/xtts-finetune-webui`
 3. `cd xtts-finetune-webui`
-4. `uv pip install torch==2.3.0+cu118 torchaudio==2.3.0+cu118 --index-url https://download.pytorch.org/whl/cu118`
+4. `uv pip install torch==2.3.1+cu118 torchaudio==2.3.1+cu118 --index-url https://download.pytorch.org/whl/cu118`
 5. `uv pip install -r requirements.txt`
 
 ### If you're using Windows
