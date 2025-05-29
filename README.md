@@ -124,7 +124,7 @@ KoljaB/XTTS_Lasinya
 
 ### On Apple Silicon Mac (python 3.10 env)
 0. ``` uv venv --python=python3.10 venv ```
-1. ``` pip install --no-deps -r apple_silicon_requirements.txt ```
+1. ``` uv pip install --no-deps -r apple_silicon_requirements.txt ```
 2. To start the server `python xtts_demo.py`
 3. Go to the local address `127.0.0.1:5003`
 
