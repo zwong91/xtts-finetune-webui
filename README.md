@@ -78,6 +78,14 @@ JacobLinCool/jacob-common-voice-19-zh-TW-curated
 ```
 
 # On macOS and Linux.
+
+git clone https://github.com/zwong91/xtts-finetune-webui.git
+cd xtts-finetune-webui
+
+git lfs install
+git clone https://huggingface.co/datasets/ivanzhu109/zh-taiwan
+cp lang.txt finetune_models/dataset/
+
 curl -LsSf https://astral.sh/uv/install.sh | sh
 source $HOME/.local/bin/env 
 uv venv --python=python3.10 venv
